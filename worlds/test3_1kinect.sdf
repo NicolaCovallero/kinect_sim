@@ -338,8 +338,8 @@
             <updateRate>1.0</updateRate>
             <cameraName>camera_ir</cameraName>
             <imageTopicName>depth/image_raw</imageTopicName>
-            <pointCloudTopicName>/camera/depth/points</pointCloudTopicName>
-            <depthImageTopicName>/camera/depth/image_raw</depthImageTopicName>
+            <pointCloudTopicName>/camera/depth_registered/points</pointCloudTopicName>
+            <depthImageTopicName>/camera/depth_registered/image_raw</depthImageTopicName>
             <depthImageCameraInfoTopicName>/camera/depth/camera_info</depthImageCameraInfoTopicName>
           </plugin>
         </sensor>
