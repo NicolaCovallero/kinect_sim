@@ -1,0 +1,14 @@
+<launch>
+
+  <include file="$(find freenect_launch)/launch/freenect.launch"/>
+
+ <!-- Kinect Camera Transformation -->
+  <node pkg="tf"
+        type="static_transform_publisher"
+        name="kinect"
+        args="0.9014760 -0.0594 1.1251720 -0.641407 0.032404 0.772933 0.011045 /world /camera_link 50" >
+<!--          args="0.9014760 -0.0594 0.7251720 -0.6411 0.0380 0.7730 0.0043 /$(arg ROBOT)_link_base camera_link 300" -->
+  </node>
+ 
+
+</launch>
