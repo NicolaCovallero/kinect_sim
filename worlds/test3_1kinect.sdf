@@ -330,7 +330,7 @@
             </clip>
           </camera>
           <plugin name='camera_controller' filename='libgazebo_ros_openni_kinect.so'>
-            <frameName>camera_depth_optical_frame</frameName>
+            <frameName>camera_rgb_optical_frame</frameName>
             <baseline>0.2</baseline>
             <pointCloudCutoff>.5</pointCloudCutoff>
             <pointCloudCutoffMax>5.0</pointCloudCutoffMax>
